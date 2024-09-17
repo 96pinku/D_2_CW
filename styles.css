@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#root{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.box{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: black;
+    color: white;
+}
+.box >h1{
+    font-size: 3.5rem;
+}
+.box >par1>par2>par3{
+    font-size: 1.4rem;
+    color: rgb(94, 92, 92);
+    line-height: 2rem;
+}
